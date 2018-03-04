@@ -13,8 +13,23 @@
     "cors": "2.8.4",
     "express": "4.16.2",
     "express-logger": "0.0.3",
+    "ioredis": "3.2.2",
     "jsonwebtoken": "8.1.1",
+    "md5": "2.2.1",
+    "mongodb": "3.0.3",
+    "mongoose": "5.0.8",
+    "pixl-xml": "1.0.13",
     "redis": "2.8.0",
+    "request": "2.83.0",
+    "uuid-token-generator": "1.0.0",
     "yargs": "11.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-google": "0.9.1",
+    "eslint-config-standard": "11.0.0",
+    "eslint-plugin-import": "2.9.0",
+    "eslint-plugin-node": "6.0.1",
+    "eslint-plugin-promise": "3.6.0",
+    "eslint-plugin-standard": "3.0.1"
   }
 }
