@@ -15,7 +15,7 @@ const app = express();
 dbWrapper.init(dbConnection)
 app.set("etag", false);
 app.use(cors());
-app.use(expressLogger({ "path": "/tmp/myApisLogs.json" }));
+app.use(expressLogger({ "path": "/tmp/myApisLogs.log" }));
 app.use(bodyParser.json());
 app.use('/getplaces/',getplaces);
 app.use('/users',users);
